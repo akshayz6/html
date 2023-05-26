@@ -1,0 +1,39 @@
+h1{
+    color: darkcyan;
+}
+p{
+    color: darkcyan;
+}
+#para1 {
+    text-align: center;
+    color: red;
+  }
+  .center {
+    text-align: center;
+    color: red;
+  }
+
+    h1, h2, p {
+        text-align: center;
+        color: red;
+      }
+      * {
+        text-align: center;
+        color: blue;
+      }
+      div p {
+        background-color: yellow;
+      }
+      div > p {
+        background-color: yellow;
+      }
+      <div>
+  
+      #field {
+       display: flex;
+       justify-content: flex-end;
+    }
+
+    
+
+    
