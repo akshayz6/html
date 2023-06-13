@@ -33,7 +33,35 @@ p{
        display: flex;
        justify-content: flex-end;
     }
-
+    .grid-container {
+      display: grid;
+      grid-template-columns: 1fr 3fr; /* Verdeling van de kolommen */
+      grid-template-rows: auto 1fr auto; /* Verdeling van de rijen */
+      grid-gap: 20px; /* Ruimte tussen de grid-items */
+      height: 100vh; /* Hoogte van de container */
+    }
+    
+    .header {
+      grid-column: 1 / span 2; /* Beslaat 2 kolommen */
+      background-color: red;
+      padding: 20px;
+    }
+    
+    .sidebar {
+      background-color: blue;
+      padding: 20px;
+    }
+    
+    .main-content {
+      background-color: green;
+      padding: 20px;
+    }
+    
+    .footer {
+      grid-column: 1 / span 2; /* Beslaat 2 kolommen */
+      background-color: yellow;
+      padding: 20px;
+    }
     
 
     
